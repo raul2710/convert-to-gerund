@@ -54,6 +54,8 @@ import convert_to_gerund
     ("snow",	"snowing"),
     ("suffer",	"suffering"),
     ("visit",	"visiting"),
+    ("sit",	"sitting"),
+    ("ski",	"skiing"),
     
 ])
 def test_transformToIngForm(input, expected):

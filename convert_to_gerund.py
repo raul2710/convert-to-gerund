@@ -27,7 +27,7 @@ def end_with_w_x_y(word):
 
 # Mas fique atento, pois se o final do verbo for -EE, -YE ou -OE, seguimos a regra original.
 def end_with_ee_ye_oe_er_en_st(word):
-    aux = ["ee", "ye", "oe"]
+    aux = ["ee", "ye", "oe", "er", "en", "st"]
     return word[-2:] in aux
 
 def transformVerbToIngForm(verb):
@@ -65,7 +65,6 @@ def transformVerbToIngForm(verb):
         return verbLowCase[:-1] + "ing"
 
     return verbLowCase + "ing"
-
 
 """ConvertVerbToGerund.ipynb
 
